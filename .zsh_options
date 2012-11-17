@@ -1,0 +1,30 @@
+####### bash_history
+# number of lines kept in history
+export HISTSIZE=10000
+# number of lines saved in the history after logout
+export SAVEHIST=10000
+# location of history
+export HISTFILE=~/.zhistory
+# history options
+setopt inc_append_history
+setopt hist_ignore_all_dups
+setopt hist_ignore_dups
+setopt hist_allow_clobber
+setopt hist_reduce_blanks
+
+
+#### Completion related
+autoload -U compinit && compinit
+#Change directories with cd
+setopt autocd
+#globbing/pattern matching
+setopt extended_glob
+#makes cd work
+setopt auto_pushd
+
+#### prompt configuration
+autoload -U colors && colors
+autoload -U promptinit && promptinit
+
+PS1="%{$fg[green]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~%{$fg[green]%}$(parse_git_branch) %{$fg[red]%} $(parse_rvm_gemset) %{$reset_color%}
+%% "
