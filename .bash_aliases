@@ -6,3 +6,6 @@ alias bcan='cd ~/work/projects/blankcanvas'
 alias be='bundle exec'
 alias bec='bundle exec cucumber'
 alias ber='bundle exec rspec'
+alias ls="ls -GpFh"
+alias grep="grep -ri"
+alias delgems="gem list | cut -d" " -f1 | xargs gem uninstall -aIx"

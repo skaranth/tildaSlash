@@ -29,3 +29,5 @@
     added = green
     changed = yellow bold
     untracked = white
+[core]
+	editor = /usr/bin/vim

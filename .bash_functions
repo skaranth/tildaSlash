@@ -13,4 +13,5 @@ parse_rvm_gemset() {
        rvm current 2> /dev/null
 }
 #
-echo $(parse_git_branch)
+#
+

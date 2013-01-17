@@ -13,6 +13,10 @@ setopt hist_allow_clobber
 setopt hist_reduce_blanks
 
 
+#### Color
+#export CLICOLOR=1
+#export LSCOLORS=
+
 #### Completion related
 autoload -U compinit && compinit
 #Change directories with cd
@@ -21,6 +25,8 @@ setopt autocd
 setopt extended_glob
 #makes cd work
 setopt auto_pushd
+#setopt auto_list list_ambiguous
+setopt list_types
 
 #### prompt configuration
 autoload -U colors && colors
