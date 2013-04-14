@@ -16,6 +16,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
 Bundle 'ervandew/supertab'
 Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'cakebaker/scss-syntax.vim'
 
 " Leader and other remaps
 :let mapleader = ","

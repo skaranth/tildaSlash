@@ -8,4 +8,6 @@ alias bec='bundle exec cucumber'
 alias ber='bundle exec rspec'
 alias ls="ls -GpFh"
 alias grep="grep -ri"
-alias delgems="gem list | cut -d" " -f1 | xargs gem uninstall -aIx"
+alias delgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
+alias tsvn='/usr/local/Cellar/subversion/1.7.8/svn'
+alias tom='cd ~/work/tw/tomorrow_networks/to_be/RSAdPlatform/'
