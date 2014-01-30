@@ -17,6 +17,8 @@ alias bi='bundle install'
 alias gpr='git pull --rebase'
 alias gc='git commit'
 alias gp='git push'
+alias git_gmail='mv ~/.ssh/id_rsa ~/.ssh/id_rsa_tw;mv ~/.ssh/id_rsa_gmail ~/.ssh/id_rsa; mv ~/.ssh/id_rsa.pub ~/.ssh/id_rsa_tw.pub;mv ~/.ssh/id_rsa_gmail.pub ~/.ssh/id_rsa.pub;'
+alias git_tw='mv ~/.ssh/id_rsa ~/.ssh/id_rsa_gmail;mv ~/.ssh/id_rsa_tw ~/.ssh/id_rsa; mv ~/.ssh/id_rsa.pub ~/.ssh/id_rsa_gmail.pub;mv ~/.ssh/id_rsa_tw.pub ~/.ssh/id_rsa.pub;'
 
 ### tools
 alias subl='sublime'
@@ -30,3 +32,4 @@ alias pakao='cd ~/work/personal/pakao'
 
 #dbs
 alias mongostg='mongo -u heroku -p ac5f964590a31680caf0d6a2de5f8763 dharma.mongohq.com:10035/app19399932'
+
