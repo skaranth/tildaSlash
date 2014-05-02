@@ -28,7 +28,8 @@ alias redis='redis-server'
 ### projects
 alias icc='cd ~/work/tw/enthrive/icecreamcake'
 alias pakao='cd ~/work/personal/pakao'
-
+alias imoji='cd ~/work/tw/bitstrips/imoji-ios'
+alias imoji_ci='ssh -v bamboo@host01.l.bitstrips.com'
 
 #dbs
 alias mongostg='mongo -u heroku -p ac5f964590a31680caf0d6a2de5f8763 dharma.mongohq.com:10035/app19399932'
