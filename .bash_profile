@@ -1,3 +1,4 @@
+source ~/.profile
 source ~/.bash_functions
 source ~/.bash_aliases
 source ~/.zsh_options
@@ -23,4 +24,3 @@ fi
 fortune | xargs -0 cowsay -W 60
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-

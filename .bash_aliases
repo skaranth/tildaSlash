@@ -28,7 +28,8 @@ alias redis='redis-server'
 ### projects
 alias icc='cd ~/work/tw/enthrive/icecreamcake'
 alias pakao='cd ~/work/personal/pakao'
-alias imoji='cd ~/work/tw/bitstrips/imoji-ios'
+alias imoji='cd ~/work/tw/bitstrips/imoji-ios/'
+alias imojib='cd ~/work/tw/bitstrips/'
 alias imoji_ci='ssh -v bamboo@host01.l.bitstrips.com'
 
 #dbs
