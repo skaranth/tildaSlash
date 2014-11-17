@@ -21,7 +21,6 @@ alias git_gmail='mv ~/.ssh/id_rsa ~/.ssh/id_rsa_tw;mv ~/.ssh/id_rsa_gmail ~/.ssh
 alias git_tw='mv ~/.ssh/id_rsa ~/.ssh/id_rsa_gmail;mv ~/.ssh/id_rsa_tw ~/.ssh/id_rsa; mv ~/.ssh/id_rsa.pub ~/.ssh/id_rsa_gmail.pub;mv ~/.ssh/id_rsa_tw.pub ~/.ssh/id_rsa.pub;'
 
 ### tools
-alias subl='sublime'
 alias tsvn='/usr/local/Cellar/subversion/1.7.8/svn'
 alias redis='redis-server'
 
