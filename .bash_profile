@@ -2,7 +2,6 @@ source ~/.bash_functions
 source ~/.bash_aliases
 source ~/.zsh_options
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export MANPATH=/opt/local/man:$MANPATH
 
@@ -23,3 +22,5 @@ fi
 fortune | xargs -0 cowsay -W 60
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
