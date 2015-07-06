@@ -1,4 +1,3 @@
-source ~/.profile
 source ~/.bash_functions
 source ~/.bash_aliases
 source ~/.zsh_options
