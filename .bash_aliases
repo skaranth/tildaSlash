@@ -3,12 +3,16 @@ alias ls="ls -lGpFha"
 alias grep="grep -ri"
 alias nt="open -a Terminal"
 
-## pyhon
+## python
 alias pip="python -m pip"
 alias python="python3"
 alias cvenv='mkdir -p ~/.virtualenv/ && APP_NAME=`basename "$PWD"`&& rm -rf ~/.virtualenv/$APP_NAME && virtualenv -p `which python3` ~/.virtualenv/$APP_NAME  && source ~/.virtualenv/$APP_NAME/bin/activate'
 alias venv='APP_NAME=`basename "$PWD"`&& source ~/.virtualenv/$APP_NAME/bin/activate'
 alias pup='pip3 install -r requirements.txt'
+
+
+##osx aliases
+alias cd_icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 # ### ruby
 # alias delgems='gem list | cut -d" " -f1 | xargs gem uninstall -aIx'
 # alias be='bundle exec'
