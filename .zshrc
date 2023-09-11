@@ -22,7 +22,7 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 export PATH="/usr/local/opt/openjdk@12/bin:$PATH"
 export PATH="/Users/skaranth/Library/Python/3.7/bin:$PATH"
-
+export PATH="$PATH:/Users/skaranth/.dotnet/tools"
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
