@@ -1,14 +1,12 @@
 [user]
-	name = 
-	email = 
+	name = Sharan Karanth
+	email = sharan@karanthconsulting.com
 [alias]
     ci = commit
     co = checkout
     st = status
     unstage = reset HEAD --
     unmerged = ls-files --unmerged        
-[credential]
-	helper = osxkeychain
 [color]
     ui = auto
     diff = auto
@@ -33,3 +31,16 @@
 	editor = /usr/bin/vim
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+[credential "https:/github.com-personal"]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
